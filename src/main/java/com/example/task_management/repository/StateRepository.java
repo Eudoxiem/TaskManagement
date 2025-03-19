@@ -1,5 +1,9 @@
 package com.example.task_management.repository;
 
-public class StateRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.task_management.model.State;
+
+public interface StateRepository extends JpaRepository <State,Long>{
+
 
 }
